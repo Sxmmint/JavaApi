@@ -13,12 +13,12 @@
     <javaClientGenerator targetPackage="com.sybinal.shop.mapper" targetProject="src" type="XMLMAPPER" />
 	 <table tableName="article"/>			<!-- 1.文章  -->
 	<table tableName="article_category"/>	<!-- 2.文章类别  -->
-	<table tableName="user_roles"/>			<!-- 3.用户角色  -->
-	<table tableName="user"/>				<!-- 4.用户信息  -->
+	<table tableName="userroles"/>			<!-- 3.用户角色  -->
+	<table tableName="users"/>				<!-- 4.用户信息  -->
 	<table tableName="contect"/>			<!-- 5.联系人表  -->
-	<table tableName="product_category"/>	<!-- 6.商品类别  -->
+	<table tableName="productcategory"/>	<!-- 6.商品类别  -->
 	<table tableName="product"/>			<!-- 7.商品  -->
-	<table tableName="product_image"/>		<!-- 8.商品图片  -->
+	<table tableName="productimage"/>		<!-- 8.商品图片  -->
 	<table tableName="option"/>				<!-- 9.Option  -->
 	<table tableName="option_value"/>		<!-- 10.Option value  -->
 	<table tableName="product_option"/>		<!-- 11.商品Option  -->
@@ -33,5 +33,6 @@
 	<table tableName="logistics"/>			<!-- 20.配送单表  -->
 	<table tableName="ewallet"/>			<!-- 21.电子钱包表  -->
 	<table tableName="account"/>			<!-- 22.用户电子钱包账户表  -->
+	<table tableName="footprint"/>	<!-- 23.浏览足迹  -->
    </context>
 </generatorConfiguration> 
